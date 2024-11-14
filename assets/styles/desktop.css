@@ -1,0 +1,18 @@
+html,
+body {
+  font-size: var(--font-text);
+}
+
+.title {
+  font-size: var(--font-desktop-xl);
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+}
+
+.title-habilty {
+  font-size: var(--font-l);
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+}

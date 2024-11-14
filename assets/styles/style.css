@@ -49,7 +49,10 @@ table {
   --font-l: 48px;
   --font-m: 24px;
   --font-text: 18px;
-  --font-xl: 88px;
+  --font-text-s: 16px;
+  --font-xl: 40px;
+  --font-tablet-xl: 72px;
+  --font-desktop-xl: 88px;
   --green-color: #4ee1a0;
   --grey-color: #d9d9d9;
   --white-color: #fff;
@@ -60,4 +63,19 @@ body {
   background-color: var(--black-color);
   color: var(--white-color);
   font-family: var(--font-family);
+  font-size: var(--font-text-s);
+}
+
+.title {
+  font-size: var(--font-xl);
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+}
+
+.title-habilty {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
 }
