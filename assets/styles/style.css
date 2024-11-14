@@ -63,4 +63,19 @@ body {
   background-color: var(--black-color);
   color: var(--white-color);
   font-family: var(--font-family);
+  font-size: var(--font-text-s);
+}
+
+.title {
+  font-size: var(--font-xl);
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+}
+
+.title-habilty {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
 }
