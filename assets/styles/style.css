@@ -73,9 +73,32 @@ body {
   letter-spacing: -1.136px;
 }
 
-.title-habilty {
+main {
+  padding: 16px;
+}
+
+.habilities {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  padding: 40px 0;
+}
+
+.hability {
+  text-align: center;
+  max-width: 345px;
+}
+
+.habilty-title {
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -1px;
+}
+
+.habilty-title + p {
+  color: var(--grey-color);
 }
