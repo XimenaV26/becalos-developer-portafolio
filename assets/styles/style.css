@@ -150,6 +150,14 @@ main {
   width: 100%;
 }
 
+.tags {
+  margin-bottom: 20px;
+}
+
+.project .btn {
+  margin-right: 32px;
+}
+
 .project-title {
   font-size: var(--font-m);
   margin: 20px 0 7px 0;
