@@ -76,6 +76,7 @@ body {
 main {
   padding: 16px;
 }
+/* Seccion de habilidades */
 
 .habilities {
   display: flex;
@@ -85,6 +86,7 @@ main {
   border-top: 1px solid var(--white-color);
   border-bottom: 1px solid var(--white-color);
   padding: 40px 0;
+  margin-bottom: 80px;
 }
 
 .hability {
@@ -101,4 +103,46 @@ main {
 
 .habilty-title + p {
   color: var(--grey-color);
+}
+
+/* Seccion de projectos */
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.projects-header {
+  width: 100%;
+}
+
+.projects-title {
+  font-size: var(--font-xl);
+  font-weight: 700;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project-title {
+  font-size: var(--font-m);
+  margin: 20px 0 7px 0;
+}
+
+.tag {
+  font-size: var(--font-text);
+  color: var(--grey-color);
+  margin-left: 18px;
+}
+
+.tag:nth-child(1) {
+  margin-left: 0;
 }
