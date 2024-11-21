@@ -25,6 +25,11 @@ main {
 }
 
 /* Proyects */
+
+/* .project .tags ~ .btn {
+  display: none;
+} */
+
 .projects {
   max-width: 1100px;
   margin: 0 auto 70px;

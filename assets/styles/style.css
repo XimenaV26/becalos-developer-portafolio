@@ -66,6 +66,22 @@ body {
   font-size: var(--font-text-s);
 }
 
+/* Button */
+.btn {
+  font-size: var(--font-text-s);
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--white-color);
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  border-bottom: 2px solid var(--green-color);
+  padding-bottom: 10px;
+}
+
+.btn:hover {
+  color: var(--green-color);
+}
+
 .title {
   font-size: var(--font-xl);
   font-weight: 700;
@@ -117,6 +133,8 @@ main {
 
 .projects-header {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects-title {
@@ -130,6 +148,14 @@ main {
 
 .project {
   width: 100%;
+}
+
+.tags {
+  margin-bottom: 20px;
+}
+
+.project .btn {
+  margin-right: 32px;
 }
 
 .project-title {
