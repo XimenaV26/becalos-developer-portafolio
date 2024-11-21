@@ -14,6 +14,7 @@ main {
 .habilities {
   max-width: unset;
   justify-content: space-between;
+  margin-bottom: 139px;
 }
 .hability {
   margin-bottom: 58px;
@@ -21,4 +22,23 @@ main {
 
 .hability:nth-child(4) {
   margin-bottom: 0px;
+}
+
+/* Proyects */
+.projects {
+  max-width: 1100px;
+  margin: 0 auto 70px;
+}
+
+.project {
+  max-width: 537px;
+  margin-bottom: 69px;
+}
+
+.projects-header {
+  margin-bottom: 80px;
+}
+
+.projects-title {
+  font-size: var(--font-desktop-xl);
 }

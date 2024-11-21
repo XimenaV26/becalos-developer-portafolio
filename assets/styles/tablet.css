@@ -7,6 +7,7 @@ body {
   font-size: var(--font-tablet-xl);
   line-height: 72px;
   letter-spacing: -2.045px;
+  width: 100%;
 }
 
 .habilty-title {
@@ -23,7 +24,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 708px;
-  margin: 0 auto;
+  margin: 0 auto 46px;
   padding: 54px 0 0;
   border-bottom: unset;
 }
@@ -38,4 +39,22 @@ main {
 .hability:nth-child(5),
 .hability:nth-child(6) {
   margin-bottom: 0px;
+}
+
+/* Seccion de projectos */
+
+.projects {
+  gap: unset;
+  margin: 0 auto 40px;
+  max-width: 708px;
+  justify-content: space-between;
+}
+
+.project {
+  margin-bottom: 60px;
+  max-width: 345px;
+}
+
+.projects-header {
+  margin-bottom: 60px;
 }
