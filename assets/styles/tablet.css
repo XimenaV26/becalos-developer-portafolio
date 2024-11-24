@@ -3,6 +3,10 @@ body {
   font-size: var(--font-text);
 }
 
+body {
+  padding: 32px;
+}
+
 .title {
   font-size: var(--font-tablet-xl);
   line-height: 72px;
@@ -10,14 +14,15 @@ body {
   width: 100%;
 }
 
+/* hability */
 .habilty-title {
   font-size: var(--font-l);
   line-height: 56px;
   letter-spacing: -1.5px;
 }
 
-main {
-  padding: 32px;
+.main {
+  border-bottom: unset;
 }
 
 .habilities {
@@ -25,9 +30,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 708px;
-  margin: 0 auto 46px;
-  padding: 54px 0 0;
-  border-bottom: unset;
+  margin: 0 auto 0;
+  padding: 54px 0 46px;
 }
 
 .hability {
@@ -58,4 +62,27 @@ main {
 
 .projects-header {
   margin-bottom: 60px;
+}
+.header {
+  text-align: start;
+  margin-bottom: 60px;
+}
+
+.hero {
+  width: 95%;
+}
+
+.hero-title {
+  font-size: var(--font-tablet-xl);
+  line-height: 72px;
+  letter-spacing: -2.045px;
+}
+
+.hero-text {
+  font-size: var(--font-text);
+  margin: 60px 0 34px;
+}
+
+.hero__underline {
+  border-bottom: 6px solid var(--green-color);
 }
