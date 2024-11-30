@@ -208,3 +208,38 @@ a:link,
   line-height: 26px;
   font-style: normal;
 }
+
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-text {
+  font-size: var(--font-m);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.333px;
+}
+
+.social-media-svgs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media-svg {
+  width: 20px;
+}
+
+.social-media-link {
+  cursor: pointer;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.social-media-svg:nth-child(1) {
+  margin-left: 0;
+}
