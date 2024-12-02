@@ -32,17 +32,13 @@ main {
 
 /* Proyects */
 
-/* .project .tags ~ .btn {
-  display: none;
-} */
-
 .projects {
   max-width: 1100px;
   margin: 0 auto 70px;
 }
 
 .project {
-  max-width: 537px;
+  max-width: 500px;
   margin-bottom: 69px;
 }
 
@@ -66,4 +62,9 @@ main {
   font-weight: 700;
   line-height: 88px;
   letter-spacing: -2.5px;
+}
+
+.footer-section {
+  max-width: 1110px;
+  margin: 0 auto;
 }

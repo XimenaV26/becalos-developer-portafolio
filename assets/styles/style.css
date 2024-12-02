@@ -5,6 +5,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 article,
 aside,
@@ -66,7 +67,9 @@ body {
   font-size: var(--font-text-s);
 }
 
-body {
+.header,
+.main,
+.footer {
   padding: 16px;
 }
 
@@ -186,7 +189,7 @@ a:link,
 
 .header {
   text-align: center;
-  margin-bottom: 80px;
+  margin: 20px 0 80px;
 }
 
 .hero-title {
@@ -210,7 +213,6 @@ a:link,
 }
 
 .social-media {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +229,6 @@ a:link,
 
 .social-media-svgs {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .social-media-svg {
@@ -242,4 +243,8 @@ a:link,
 
 .social-media-svg:nth-child(1) {
   margin-left: 0;
+}
+
+.footer {
+  background-color: var(--Dark-Grey);
 }

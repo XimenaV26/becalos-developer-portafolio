@@ -3,7 +3,9 @@ body {
   font-size: var(--font-text);
 }
 
-body {
+.header,
+.main,
+.footer {
   padding: 30px;
 }
 
@@ -102,4 +104,9 @@ body {
 
 .social-media-link {
   margin-left: 25px;
+}
+
+.footer-section {
+  max-width: 708px;
+  margin: 0 auto;
 }
