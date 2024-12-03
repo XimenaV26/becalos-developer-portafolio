@@ -68,6 +68,8 @@ body {
 .header {
   text-align: start;
   margin-bottom: 60px;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -93,7 +95,17 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: initial;
+  padding: 30px 0 10px;
 }
+
+.social-media-footer {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: initial;
+  padding: 30px 0 10px;
+  border-top: 1px solid var(--white-color);
+}
+
 .social-media-text {
   font-size: 32px;
 }
@@ -109,4 +121,30 @@ body {
 .footer-section {
   max-width: 708px;
   margin: 0 auto;
+}
+
+.contact {
+  max-width: 445px;
+  margin: 0 auto;
+}
+
+.contact-form-title {
+  font-size: var(--font-tablet-xl);
+  line-height: 72px;
+  letter-spacing: -2.045px;
+  margin-top: 60px;
+}
+
+.contact-form-text {
+  font-size: var(--font-text);
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.form-footer {
+  width: 100%;
+}
+
+.button {
+  margin-bottom: 92px;
 }

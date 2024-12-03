@@ -107,7 +107,6 @@ a:link,
 
 .main {
   border-top: 1px solid var(--white-color);
-  border-bottom: 1px solid var(--white-color);
 }
 
 .habilities {
@@ -217,6 +216,16 @@ a:link,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px 0 60px;
+}
+
+.social-media-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 60px;
+  border-top: 1px solid var(--white-color);
 }
 
 .social-media-text {
@@ -247,4 +256,67 @@ a:link,
 
 .footer {
   background-color: var(--Dark-Grey);
+}
+
+.footer-section {
+  max-width: 343px;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-footer {
+  text-align: center;
+}
+
+.contact-form-title {
+  font-size: var(--font-xl);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+  margin-bottom: 20px;
+}
+
+.contact-form-text {
+  font-size: var(--font-text-s);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  background-color: transparent;
+  padding-left: 24px;
+  padding-bottom: 17px;
+  border-bottom: solid 1px var(--white-color);
+  color: var(--white-color);
+  font-size: var(--font-text-s);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.222px;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 89px;
+}
+
+.input-form:focus {
+  border-bottom: solid 1px var(--green-color);
+  outline: none;
 }
