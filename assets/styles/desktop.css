@@ -11,6 +11,7 @@ body {
 .header {
   max-width: 1100px;
   margin: 0 auto;
+  position: relative;
 }
 
 main {
@@ -52,6 +53,7 @@ main {
 
 .header {
   margin-bottom: 69px;
+  position: static;
 }
 .hero {
   width: 80%;
@@ -101,4 +103,21 @@ main {
   letter-spacing: -2.5px;
   margin-top: 0;
   margin-bottom: 36px;
+}
+
+.profile-img-tablet {
+  display: none;
+}
+
+.profile-img {
+  max-width: 445px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profile-img-desktop {
+  width: 100%;
+  background: #242424;
+  display: block;
 }
