@@ -28,7 +28,7 @@ El objetivo de este proyecto es demostrar el uso de HTML semántico para crear u
 
 2. Abre el archivo `index.html` en tu navegador para visualizar la página localmente.
 
-3. Para ver la versión en línea, accede a la URL de GitHub Pages: [URL del proyecto en GitHub Pages proximamente](proximamante).
+3. Para ver la versión en línea, accede a la URL de GitHub Pages: [URL del proyecto en GitHub Pages](https://ximenav26.github.io/becalos-developer-portafolio/)
 
 ## Requisitos Previos
 
@@ -47,4 +47,19 @@ Para trabajar con el proyecto, necesitarás:
 ## Enlaces Importantes
 
 - **Repositorio de GitHub**: [becalos-developer-portafolio](https://github.com/XimenaV26/becalos-developer-portafolio)
-- **URL Pública en GitHub Pages**: [Proximamente]()
+- **URL Pública en GitHub Pages**: [Github Pages](https://ximenav26.github.io/becalos-developer-portafolio/)
+
+## Vista Dekstop
+![image](https://github.com/user-attachments/assets/1eb08ff7-8ae4-4c66-851a-a55a8ead3855)
+
+## Vista Tablet
+![image](https://github.com/user-attachments/assets/abf07835-fb41-44c8-9fc3-d2faba4757fb)
+
+## Vista movil 
+![image](https://github.com/user-attachments/assets/732fdac0-826b-4dec-ba8d-76bf47ce5ed6)
+
+https://github.com/user-attachments/assets/e0229ce3-d2e9-41f3-9540-712280cfdc73
+
+
+
+
